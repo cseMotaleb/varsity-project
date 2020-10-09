@@ -1,0 +1,545 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Doctry</title>
+	<!-- Framework CSS -->
+	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p,
+		table,
+		hr,
+		.box {
+			margin-bottom: 25px;
+		}
+
+		.box p {
+			margin-bottom: 10px;
+		}
+	</style>
+	<script src="assets/js/jquery.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/custom.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h3 class="center alt">&ldquo;Doctry&rdquo; Documentation by &ldquo;Amentotech&rdquo; v1.0</h3>
+		<hr>
+		<h1 class="center">&ldquo;Doctry&rdquo;</h1>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+						Created: 03/10/2019<br>
+						By: Amentotech<br>
+						Email: <a href="mailto:theamentotech@gmail.com">theamentotech@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our script. If you have any questions that are beyond the
+					scope of this help file, please feel free to email via my user page contact form <a href="https://themeforest.net/user/amentotech/portfolio">here</a>.
+					Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		<hr>
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol id="docs" class="alpha">
+				<li><a data-scrollto="#intro" href="#"> Introduction</a></li>
+				<li><a data-scrollto="#step1" href="#">Project Requirements</a></li>
+				<li class="menu-item-has-children">
+					<a data-scrollto="#step2" href="#">Installation</a>
+					<ul class="sub-menu children">
+						<li><a data-scrollto="#ins_step1" href="#">Live Installation</a></li>
+						<li><a data-scrollto="#ins_step2" href="#">Local Installation</a></li>
+						<li><a data-scrollto="#ins_step3" href="#">Installation with Installer</a></li>
+					</ul>
+				</li>
+				<li><a data-scrollto="#step3" href="#">Roles</a></li>
+				<li class="menu-item-has-children">
+					<a data-scrollto="#step4" href="#">Admin</a>
+					<ul class="sub-menu children">
+						<li><a data-scrollto="#step4_article" href="#">Manage Article</a></li>
+						<li><a data-scrollto="#step4_inbox" href="#">inbox</a></li>
+						<li><a data-scrollto="#step4_emailtemplate" href="#">Email Templates</a></li>
+						<li><a data-scrollto="#step4_manageusers" href="#">Manage Users</a></li>
+						<li><a data-scrollto="#step4_account" href="#">Account settings</a></li>
+						<li><a data-scrollto="#step4_profile" href="#">Profile settings</a></li>
+						<li><a data-scrollto="#step4_package" href="#">Packages</a></li>
+						<li><a data-scrollto="#step4_payout" href="#">Payouts</a></li>
+						<li><a data-scrollto="#step4_settings" href="#">Settings</a>
+							<ul class="sub-menu children">
+								<li><a data-scrollto="#settings_homepage" href="#">Homepage Settings</a>
+									<ul class="sub-menu children">
+										<li><a data-scrollto="#homepage_slider" href="#">Slider Settings</a>
+										<li><a data-scrollto="#homepage_search" href="#">Search Banner Section</a>
+										<li><a data-scrollto="#homepage_service" href="#">Service Section</a>
+										<li><a data-scrollto="#homepage_about" href="#">About Us Section</a>
+										<li><a data-scrollto="#homepage_work" href="#">How It Works Section</a>
+										<li><a data-scrollto="#homepage_app" href="#">Download App Section</a>
+										<li><a data-scrollto="#homepage_doc_slider" href="#">Doctor Slider Section</a>
+										<li><a data-scrollto="#homepage_article" href="#">Article Section</a>
+									</ul>
+								</li>
+								<li><a data-scrollto="#settings_general" href="#">General Settings</a>
+									<ul class="sub-menu children">
+										<li><a data-scrollto="#general_general" href="#">General</a>
+										<li><a data-scrollto="#general_email" href="#">Email Setting</a>
+										<li><a data-scrollto="#general_payment" href="#">Payment Setting</a>
+										<li><a data-scrollto="#general_register" href="#">Registration Form Setting</a>
+										<li><a data-scrollto="#general_bar" href="#">Top bar Setting</a>
+										<li><a data-scrollto="#general_inner" href="#">Inner Page Setting</a>
+										<li><a data-scrollto="#general_social" href="#">Social Setting</a>
+										<li><a data-scrollto="#general_icon" href="#">Dashboard Icons</a>
+										<li><a data-scrollto="#general_footer" href="#">Footer Settings</a>
+										<li><a data-scrollto="#general_role" href="#">Role Settings</a>
+										<li><a data-scrollto="#general_sidebar" href="#">Sidebar Settings</a>
+										<li><a data-scrollto="#general_cache" href="#">Clear Cache</a>
+										<li><a data-scrollto="#general_demo" href="#">Demo Content</a>
+										<li><a data-scrollto="#general_chat" href="#">Chat Settings</a>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a data-scrollto="#step4_pages" href="#">Pages</a>
+							<ul class="sub-menu children">
+								<li><a data-scrollto="#page_create" href="#">Create Page</a>
+								<li><a data-scrollto="#page_listing" href="#">Pages Listing</a>
+							</ul>
+						</li>
+						<li><a data-scrollto="#step4_taxonomies" href="#">Taxonomies</a>
+							<ul class="sub-menu children">
+								<li><a data-scrollto="#taxonomies_location" href="#">Locations</a>
+								<li><a data-scrollto="#taxonomies_category" href="#">Article Categories</a>
+								<li><a data-scrollto="#taxonomies_speciality" href="#">Specialties</a>
+								<li><a data-scrollto="#taxonomies_service" href="#">Services</a>
+								<li><a data-scrollto="#taxonomies_option" href="#">Improvement Options</a>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="menu-item-has-children">
+					<a data-scrollto="#doctor" href="#">Doctor</a>
+					<ul class="sub-menu children">
+						<li><a data-scrollto="#doc_dashboard" href="#">dashboard</a></li>
+						<li><a data-scrollto="#doc_profile" href="#">Profile Settings</a>
+							<ul class="sub-menu children">
+								<li><a data-scrollto="#doc_personal" href="#">Personal Detail</a>
+								<li><a data-scrollto="#doc_exp" href="#">Experience and Education</a>
+								<li><a data-scrollto="#doc_award" href="#">Awards and Downloads</a>
+								<li><a data-scrollto="#doc_registration" href="#">Registration</a>
+								<li><a data-scrollto="#doc_service" href="#">Services</a>
+							</ul>
+						</li>
+						<li><a data-scrollto="#doc_appointments" href="#">Appointments</a></li>
+						<li><a data-scrollto="#doc_appointment_settings" href="#">Appointment Settings</a></li>
+						<li><a data-scrollto="#doc_article" href="#">Manage Article</a></li>
+						<li><a data-scrollto="#doc_payout" href="#">Payout Settings</a></li>
+						<li><a data-scrollto="#doc_saved" href="#">Saved Items</a></li>
+						<li><a data-scrollto="#doc_package" href="#">Packages</a></li>
+						<li><a data-scrollto="#doc_invoice" href="#">Invoices</a></li>
+						<li><a data-scrollto="#doc_account" href="#">Account Settings</a></li>
+					</ul>	
+				</li>
+				<li class="menu-item-has-children">
+					<a data-scrollto="#hospital" href="#">Hospital</a>
+					<ul class="sub-menu children">
+						<li><a data-scrollto="#hospital_dashboard" href="#">dashboard</a></li>
+						<li><a data-scrollto="#hospital_profile" href="#">Profile Settings</a>
+							<ul class="sub-menu children">
+								<li><a data-scrollto="#hospital_personal" href="#">Personal Detail</a>
+								<li><a data-scrollto="#hospital_registration" href="#">Registration</a>
+								<li><a data-scrollto="#hospital_service" href="#">Services</a>
+							</ul>
+						</li>
+						<li><a data-scrollto="#hospital_team" href="#">Manage Team</a></li>
+						<li><a data-scrollto="#hospital_saved" href="#">Saved Items</a></li>
+						<li><a data-scrollto="#hospital_account" href="#">Account Settings</a></li>
+					</ul>	
+				</li>
+				<li class="menu-item-has-children">
+					<a data-scrollto="#regular" href="#">Regular User</a>
+					<ul class="sub-menu children">
+						<li><a data-scrollto="#regular_dashboard" href="#">dashboard</a></li>
+						<li><a data-scrollto="#regular_profile" href="#">Profile Settings</a></li>
+						<li><a data-scrollto="#regular_appointment" href="#">Appointments</a></li>
+						<li><a data-scrollto="#regular_saved" href="#">Saved Items</a></li>
+						<li><a data-scrollto="#regular_invoice" href="#">Invoice</a></li>
+						<li><a data-scrollto="#regular_inbox" href="#">Inbox</a></li>
+						<li><a data-scrollto="#regular_account" href="#">Account Settings</a></li>
+					</ul>	
+				</li>
+				<li><a data-scrollto="#step5" href="#">Language Translation</a></li>
+		</ol>
+		<div class="docs-content">
+			<h3 id="intro"><strong>Introduction</strong> - <a href="#" data-scrollto="#toc">top</a></h3>
+			<p> Doctry is a platform where patient search doctors or hospitals and book online appointment for a specific speciality or service in a available time slot.    
+			</p>
+			<h3 id="step1"><strong>Project Requirements</strong> - <a href="#" data-scrollto="#toc">top</a></h3>
+			<p>you will need to make sure your server meets the following requirements:</p>
+			<ul>
+				<li>PHP version= 7.1.3</li>
+				<li>OpenSSL PHP Extension</li>
+				<li>PDO PHP Extension</li>
+				<li>Mbstring PHP Extension</li>
+				<li>Tokenizer PHP Extension</li>
+				<li>XML PHP Extension</li>
+				<li>Ctype PHP Extension</li>
+				<li>JSON PHP Extension</li>
+				<li>BCMath PHP Extension</li>
+				<li>Fileinfo PHP Extension</li>
+				<li>Laravel version = 5.7</li>
+				<li>Node.js</li>
+			</ul>
+			<hr>
+			<h3 id="step2"><strong>Installation</strong> - <a href="#" data-scrollto="#toc">top</a></h3>
+			<h4 id="ins_step1"><strong>Live Installation</strong></h4>
+			<p>Installation of the laravel application on the <strong>Server whether it is on dedicated or shared server</strong>
+				is an easy thing to do.</p>
+			<p>You just have to follow the points given below and your application will be deployed on the server.</p>
+			<ul>
+				<li>This method assume that you have either cPanel and FTP details or both.</li>
+				<li>Login to your CPanel account. And First Create the database for your site.</li>
+				<li>Now go to File Manager in cPanel. <figure><img src="assets/images/file_manager.png"></figure></li>
+				<li>Now go to public_html or WWW or home (dependents on servers variety).<figure><img src="assets/images/public_html.png"></figure></li>
+				<li>Now create a new folder inside public_html folder as shown in figure <figure class="la-img"><img src="assets/images/folder_name.png"></figure> 
+				</br>upload your all laravel project files in the folder you have created. Zip your project and then
+					upload. In my case i have created an <strong>your_project</strong> folder ( this is a example name you can name it as you required ) 
+					<br>( this step is optional you can upload and extract your project files in <strong>public_html</strong> )</li> <br>
+				<li>Extract your Laravel Project. Now open the public folder.<figure><img src="assets/images/public.png"></figure></li>
+				<li>Inside public folder select all items and move them to one step back means on your project directory root
+					location.<figure><img src="assets/images/public_inside.png"></figure><br><figure><img src="assets/images/move_public.png"></figure></li>
+				<li>Now edit the index.php file. As shown in figure <figure><img src="assets/images/index_edit.png"></figure> </br> Now Change
+					the paths. As shown in figure <figure><img src="assets/images/index_edit2.png"></figure></li>
+				<li>Save your index file.</li>
+				<li>If you follow the above steps correctly then know all your project files placed in the same folder</li>
+			</ul>
+			<h4 id="ins_step3"><strong>Installation with Installer / One click installation</strong> - <a href="#" data-scrollto="#toc">top</a></h4>
+			<p>After setting up your project folders, go to your project package folder open ENV file set the following configuration settings.</p>
+			<ol>
+				<li>APP_NAME : your application name</li>
+				<li>APP_URL: your application url</li>
+				<li>DB_DATABASE: your database name</li>
+				<li>DB_USERNAME: your database user_name</li>
+				<li>DB_PASSWORD: your database password</li>
+				<li>MAIL_HOST: Your mail server host</li>
+				<li>MAIL_PORT: Your mail server port</li>
+				<li>MAIL_USERNAME: Your email id</li>
+				<li>MAIL_PASSWORD: your email password</li>
+				<li>MAIL_ENCRYPTION: If your MAIL_PORT=587 then MAIL_ENCRYPTION must be tls and if your MAIL_PORT=465 then it must be ssl
+			</ol>	
+			<p><strong> Important Note:</strong></p>
+			<ul>
+				<li>After saving configuration settings copy ENV file and paste it into project root directory.</li>
+				<li>Type <strong>your-project-path/</strong> e.g (www.test.com) into your address-bar and follow the installation steps.</li>
+			</ul>
+			<ul>
+				<figure><img src="assets/images/oc-install-1.png"></figure>
+				<figure><img src="assets/images/oc-install-2.png"></figure>
+				<figure><img src="assets/images/oc-install-3.png"></figure>
+				<figure><img src="assets/images/oc-install-4.png"></figure>
+			</ul>
+			<li>When all the process is successfully completed you will see a window indicating <strong>application successfully installed</strong> Just click finish and your application will be installed successfully.</li>
+			<figure><img src="assets/images/oc-install-5.png"></figure>
+			<h5>Important Note:</h5>
+			<ul>
+				<li>If you have any issue regarding installation of application on live server you need to clear your cache as described in <a href="#" data-scrollto="#stepCacheM">Clear Cache Manually.</a>.</li>
+				<li>Delete "installed" file from storage folder (root_path/storage/) if exist.</li>
+			</ul>
+			<h4 id="ins_step2"><strong>Local Installation</strong> - <a href="#" data-scrollto="#toc">top</a></h4>
+			<p>Installation of the laravel application on the <strong>local server</strong> is an easy thing to do.</p>
+			<p>You just have to follow the points given below and your application will be set on your system.</p>
+			<ul>
+				<li>This method assume that you have the apache server either Xampp or Wamp installed in you system. if not you can
+					download there latest version from the given links <a href="https://www.apachefriends.org/download.html" target="_blank">
+						Xampp download</a> and <a href="http://www.wampserver.com/en/" target="_blank">Wamp download </a></li>
+				<li>After setup apache server you need to copy project folder in the following folder.</li>
+				<li>If you install Xampp the folder location is installed_directory/xampp/htdocs/your_project_folder </li>
+				<li>If you install Wamp the folder location is installed_directory/wamp/www/your_project_folder </li>
+				<li>You need to install the composer. you can download it from <a href="https://getcomposer.org/download/" target="_blank">here</a></li>
+				<li>After installation of the composer go to your project folder open "cmd" or "command prompt". you can open cmd by
+					pressing "shift + right click" and click "open command window here" e.g C:\xampp\htdocs\you_projecr_name </li>
+				<li>Run the following commands only at the time of installation </li>
+				<li><strong>composer update</strong></li>
+				<li>Your project is setup and ready to run. In order to run the project type the following command in the command
+					prompt </li>
+				<li>To run the project type <strong>php artisan serve</strong></li>
+				<li>After that follow the steps described in <a data-scrollto="#ins_step3" href="#">Installation with Installer</a></li>
+			</ul>
+			<h5>Important Note:</h5>
+			<p>If you have any issue regarding installation of application on your local system just follow the steps given below.</p>
+			<ul>
+				<li>Stop the server on your local machine.</li>
+				<li>Clear the cache of your application by writing the following commands.</li>
+				<ol>
+					<li>php artisan config:cache</li>
+					<li>php artisan cache:clear</li>
+					<li>php artisan config:clear</li>
+				</ol>
+				<li>Delete <strong>"installed"</strong> file from storage folder (root_path/storage/) if exist.</li>
+				<li>Now start your server. (php artisan serve)</li>
+			</ul>
+			<hr>			
+			<!-- Admin Dashboard -->
+			<h3 id="step3"><strong>Roles</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>Doctry consist of 4 type of roles Admin, Hospital, Doctor and Regular/Patient </p>
+			<ul>
+				<li>Admin- Have access to each and every aspect of the site, he/she can create, edit or delete anything.</li>
+				<li>Hospital- Create profile and manage doctor team.
+				<li>Doctor- Create his profile, send request to hospital for adding appointment location and manage his appointment time slots.</li>
+				<li>Regular/Patient- Search for doctors and book appointments.</li>
+			</ul>
+			<h3 id="step4"><strong>Admin</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p><strong> Admin login details are given  below:</strong></p>
+			<ul>
+				<li>Email : admin@amentotech.com</li>
+				<li>Password : google</li>
+			</ul>
+			<h4 id="step4_article"><strong>Manage Article</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>You can view created article listing as well as you can create new article</p>
+			<p><strong>Create Article:</strong> You can featured your article from top right switch button and you can add title, description, featured image and select category. You need to create article category from taxonomy section</p>
+			<figure class="la-img"><img src="assets/images/manage_article.png"></figure>
+			<h4 id="step4_inbox"><strong>Inbox</strong></h3>
+			<p>Inbox is a real time chat system but in order to active real time chat in your application you need to set chat settings from general settings and run server.js file from your server</p>
+			<p>User can view all the users list he already chat with in left site and by clicking user image and name from left side list user can view chat history and send new messages</p>
+			<figure class="la-img"><img src="assets/images/inbox.png"></figure>
+			<h4 id="step4_emailtemplate"><strong>Email templates</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			You can find all email templates list in this page, you can filter email templates by user type from 'filter by role' dropdown and also you can search from search email template field. You can edit email template title, subject and description, you can find email variables which you can use in your templates. You can not delete email template.
+			<figure class="la-img"><img src="assets/images/email_template.png"></figure>
+			<figure class="la-img"><img src="assets/images/edit_email_template.png"></figure>
+			<h4 id="step4_manageusers"><strong>Manage Users</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>You can find all registered users. You can delete any user by clicking delete icon and you can view user profile by clicking eye icon</p>
+			<figure class="la-img"><img src="assets/images/manage_users.png"></figure>
+			<h4 id="step4_account"><strong>Account Settings</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			Account settings consist of 2 parts reset password and email notification. In reset password tab you can change your password and In email notification tab you can view your email address on which mails will be delivered.
+			<figure class="la-img"><img src="assets/images/admin-acc-setting-reset-pass.png"></figure>
+			<figure class="la-img"><img src="assets/images/admin-email-notification.png"></figure>
+			<h4 id="step4_profile"><strong>Profile Settings</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			In profile settings you can add your first name, last name, email, profile photo and banner photo.
+			<figure class="la-img"><img src="assets/images/admin_profile_settings.png"></figure>
+			<h4 id="step4_package"><strong>Packages</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			You can view all created packages and also you can create new package.You can edit package by clicking pencil icon and you can delete package by clicking trash icon. You can not delete trail package.In order to create new package you need to add title, subtitle, package price, number of services user can add, number of brochers user you can add. number of articles user can published, number of awards user can add, number of memberships, package duration, has booking featured, and you can enable or disable chat feature from package.     
+			<figure class="la-img"><img src="assets/images/admin_package.png"></figure>
+			<h4 id="step4_payout"><strong>Payouts</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			Doctry is based on Wallet System, in which admin transfers amount manually. Payouts is a doctors earning from appointment bookings, doctors can set their payout settings from their dashboard.
+			<figure class="la-img"><img src="assets/images/doc-payout-settings.png"></figure>			
+			Admin can set a minimum payout amount that a doctor account should contain to withdraw their earnings. At every end of the month CronJob executes automatically that checks all the doctors's appointments and if the sum of a doctors's completed appointment amount is equal to or greater than minimum payout amount set by the admin then earing will be transferred to doctor wallet or payouts and then admin will manually transfer their earnings by using doctor's payout detail.You can download payout pdf file for specific year and month. 
+			<figure class="la-img"><img src="assets/images/admin-payouts-1.png"></figure>
+			<h4 id="settings_homepage"><strong>Homepage Settings</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>Homepage settings consist of 8 parts slider, search banner, service, about us, how it works, download app and doctor slider.</p>
+			<p id="homepage_slider"><strong>Slider Settings:</strong> You can add slider background image and you can add new slides by clicking add new button then a new form added in your settings then click on pencil icon and add slide data. You can delete slides by clicking delete icon.</p>
+			<figure class="la-img"><img src="assets/images/admin-home-slider.png"></figure>			
+			<p id="homepage_search"><strong>Search Banner Section:</strong> You can show or hide search form from hope page and you can add title, heading, subheading, button title, button url and search banner image.</p>
+			<figure class="la-img"><img src="assets/images/admin-search-banner.png"></figure>			
+			<p id="homepage_service"><strong>Service Section:</strong>  You can show or hide service section from hope page. You can add multiple service tab by clicking plus icon and delete tab by clicking delete icon.</p>
+			<figure class="la-img"><img src="assets/images/admin-home-services.png"></figure>
+			<p id="homepage_about"><strong>About Us Section:</strong>  You can show or hide about us section from hope page. You can add title, subheading, description, button title and url, about us right side image and title and subtitle.</p>
+			<figure class="la-img"><img src="assets/images/admin-home-about-us.png"></figure>
+			<p id="homepage_work"><strong>How It Works Section:</strong>  You can show or hide how it work description section from hope page. You can add title, subtitle and description for how it work description section. You can show or hide how it work image tabs. You can add multiple image tab by clicking plus icon and you can delete by clicking delete icon.</p>
+			<figure class="la-img"><img src="assets/images/admin-home-hw-work.png"></figure>
+			<p id="homepage_app"><strong>Download App Section:</strong>  You can show or hide download app section from hope page. You can add title, subheading, description, section background image android app image and url and iso image and url if you leave url field empty then image not displayed in homepage.</p>
+			<figure class="la-img"><img src="assets/images/admin-download-app.png"></figure>
+			<p id="homepage_doc_slider"><strong>Doctor Slider Section:</strong>  You can show or hide doctor slider from homepage. You need to select specialty and the doctors related to that specialty start displaying in doctor slider.</p>
+			<figure class="la-img"><img src="assets/images/admin-doc-slider.png"></figure>
+			<p id="homepage_article"><strong>Article Section:</strong>  You can show or hide article section from homepage. You can add title, subheading and description.</p>
+			<figure class="la-img"><img src="assets/images/admin-article-section.png"></figure>
+			<h4 id="settings_general"><strong>General Settings</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>You can manage all settings related to doctry application. General settings consist of 14 parts general, email, registration, top-bar, inner-page, social, dashboard, footer, role, sidebar, clear cache, demo content and chat settings</p>
+			<p id="general_general"><strong>General Setting:</strong> You can upload header logo and favi-icon. In order to display map you need to add your Google map API key. You can change application language, you need to check <strong>Translate Languages</strong> section for translating and adding new languages. You can enable and disable chat from doctor profile page. you can control application color settings.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-setting.png"></figure>
+			<p id="general_email"><strong>Email Setting:</strong> You can add from email address, from email name, sender name, tag-line and url, you can upload logo, banner and sender image.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-email-setting.png"></figure>
+			<p id="general_payment"><strong>Payment Setting:</strong> payment settings consist of 3 parts General settings, PayPal, and Stripe.</p>
+			<p>Payment General setting: you can change application currency. Doctry support two types of payment method PayPal and Stripe you can either select both or one of the payment method. You need to set minimum payout or amount which can be withdrawal by doctor. If doctor amount will be the smaller then your set minimum amount then their payouts will not be generated.</p>
+			<p>PayPal Settings: In order to use PayPal you need to add your credentials if you want to use sandbox account for testing you need to enable sandbox from setting.</p>
+			<p>Stripe Settings: In order to use stripe you need to add your key and secret from your stripe account.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-payment-setti.png"></figure>
+			<p id="general_register"><strong>Registration Form Setting:</strong> You can manage registration form steps. You can change all steps title, description, link and upload image.</p>
+			<figure class="la-img"><img src="assets/images/admin-reg-sett.png"></figure>
+			<p id="general_bar"><strong>Top bar Setting:</strong> You can enable or disable top bar. You can add phone title, phone number and enable or disable social icons.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-topbar.png"></figure>
+			<p id="general_inner"><strong>Inner Page Setting:</strong> You can enable or disable breadcrumbs and search form. Breadcrumbs and Search form settings can be applied on all pages you have created from admin dashboard, search pages, profile pages and article pages. You can add SEO meta title and description for search result page.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-inner-page.png"></figure>
+			<p id="general_social"><strong>Social Setting:</strong> You can add and remove social icons for doctry application.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-socials.png"></figure>
+			<p id="general_icon"><strong>Dashboard Icons:</strong> You can upload user dashboard icons.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-dash-icons.png"></figure>
+			<p id="general_footer"><strong>Footer Settings:</strong> You can show or hide contact information bar. You can add contact information bar phone number, email and upload images. You can upload logo, add about us description, address, email, phone, copyright text and enable or disable social icons.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-footer.png"></figure>
+			<p id="general_role"><strong>Role Settings:</strong> Doctry consist of 4 types of roles you can change their display names.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-roles.png"></figure>
+			<p id="general_sidebar"><strong>Sidebar Settings:</strong> You can show or hide sidebar from inner pages. Sidebar consist of 3 parts Ask query, Mobile app and ads.</p>
+			<p>Ask query: You can show or hide this section from sidebar. You can add title, description, button title and link, and upload image.</p>
+			<p>App section: You can show or hide this section from sidebar. You can add title, description, button title, app link and upload image. User or visitor add his email in email field from sidebar and your app link is send to the user email.</p>
+			<p>Add section: You can show or hide this section from sidebar. You can add your add code by clicking <striong><></striong> icon.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-sidebar.png"></figure>
+			<p id="general_cache"><strong>Clear Cache:</strong> After changing in css or javascript code or in .env configuration file you need to clear you application cache in order to take effect your changing. You can clear specific cache of the application by clicking clear cache button and you clear all application cache by clicking clear all button.</p>
+			<p>You can also clear cache manually by following the steps given below</p>
+			<ul>
+				<li>Go to project root folder</li>
+				<li>Open bootstrap folder</li>
+				<li>Open cache folder</li> 
+				<li>Delete all files inside the cache folder</li>
+			</ul>
+			<figure class="la-img"><img src="assets/images/admin-gen-cache.png"></figure>
+			<p id="general_demo"><strong>Demo Content:</strong> You can import demo content by clicking "Import Demo" and you can remove demo content by clicking "Remove Demo" from admin dashboard as shown in below image. </p>
+			<figure class="la-img"><img src="assets/images/admin-demo.png"></figure>
+			<p id="general_chat"><strong>Chat Settings:</strong> In order to enable real time chat in Doctry you need to configure host and port settings.
+			Host could be either http://localhost or could be http://yourdomain.com. You need to add the available port for chat, default would be 3001 Some server uses 80, 81, 8080, 3000, 3001, consult with your hosting provider no need to change the port if your server is using port 3001, if you will change this port then you have to change it in server.js file located in your-project > js > server.js at line no 3. Your node server should run server.js file for real-time chat. Please ask your hosting provider, how you can run this file.</p>
+			<figure class="la-img"><img src="assets/images/admin-gen-sidebar.png"></figure>
+			<h4 id="page_create"><strong>Pages</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>You can view all created pages and you can add new page or edit already created page. In new page you can change slug, add title, description, seo meta description and hide or show from main menu.</p>
+			<figure class="la-img"><img src="assets/images/admin-page-list.png"></figure>
+			<figure class="la-img"><img src="assets/images/admin-create-page.png"></figure>
+			<h4 id="step4_taxonomies"><strong>Taxonomies</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>Doctry has 5 types of taxonomies. You can add and delete taxonomies from their respective page.</p>
+			<p id="taxonomies_location"><strong>Locations:</strong> You can add title, description and upload flag. You can select parent in order to display in parent child tree view.</p>
+			<figure class="la-img"><img src="assets/images/admin-location.png"></figure>
+			<p id="taxonomies_category"><strong>Article Categories:</strong> You can add title, description and upload image. You need to add this category before creating article.</p>
+			<figure class="la-img"><img src="assets/images/admin-categories.png"></figure>
+			<p id="taxonomies_speciality"><strong>Specialties:</strong> You can add title, description and upload image. You need to add this category before creating services.</p>
+			<figure class="la-img"><img src="assets/images/admin-specialities.png"></figure>
+			<p id="taxonomies_service"><strong>Services:</strong> You can add title, description and select specialty relevant to the service.</p>
+			<figure class="la-img"><img src="assets/images/admin-services.png"></figure>
+			<p id="taxonomies_option"><strong>Improvement Options:</strong> You only need to add title. these options will be show in doctor feedback form.</p>
+			<figure class="la-img"><img src="assets/images/admin-improvement-options.png"></figure>
+			<h3 id="doctor"><strong>Doctor</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>User can be register as a doctor. After registration a trail package is assign to doctor, he or she can update his or her package from their dashboard. In order to work as a doctor user need to add appointment location in a hospital.</p>
+			<h4 id="doc_dashboard"><strong>dashboard</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>Doctor can view his/her package expiry and update his package, view his/her available balance and total posted articles and some important page links</p>
+			<figure class="la-img"><img src="assets/images/dash-doc.png"></figure>
+			<h4 id="doc_profile"><strong>Profile Settings</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>Doctor profile consist of 5 parts personal detail, experience and education, awards and downloads, registration and services. </p>
+			<p id="doc_personal">Personal Detail: Doctor can change his/her title, add subheading, first name, last name, starting price, description, upload profile image and banner, select location, add address, longitude and latitude and can remove and add memberships respective to his/her package.</p>
+			<figure class="la-img"><img src="assets/images/doc-profile-personal.png"></figure>
+			<p id="doc_exp">Experience and Education: Doctor can add his/her experience or education, by clicking add new a form added and then his/her need to click pencil icon to add education or experience detail. Doctor can delete experience or education by clicking delete icon.</p>
+			<figure class="la-img"><img src="assets/images/doc-profile-exp-edu.png"></figure>
+			<p id="doc_award">Awards and Downloads: Doctor can add award by adding title and date. he/her can delete award by clicking delete icon. Doctor can upload files. Doctor can add award and upload files respective to his/her package.</p>
+			<figure class="la-img"><img src="assets/images/doc-profile-awards-dwlnd.png"></figure>
+			<p id="doc_registration">Registration: Doctor can add his/her medical registration number and upload medical document.</p>
+			<figure class="la-img"><img src="assets/images/doc-profile-setting-reg.png"></figure>
+			<p id="doc_service">Services: Doctor can add services in his/her relevant specialization. Doctor can add services respective his/her package.</p>
+			<figure class="la-img"><img src="assets/images/doc-profile-setting-services.png"></figure>
+			<h4 id="doc_appointments"><strong>Appointments</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>Doctor can view his/her appointments. Doctor need to select date from calender and all the appointments related to the selected date can be displayed. Doctor can view patient detail by clicking view detail button.</p>
+			<figure class="la-img"><img src="assets/images/doc-appt-settings-1.png"></figure>
+			<figure class="la-img"><img src="assets/images/doc-appt-settings-2.png"></figure>
+			<h4 id="doc_appointment_settings"><strong>Appointment Settings</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>In order to start booking appointments you need to send request to hospital then hospital approve or reject your request. Doctor need to search hospital he/her want to send request to add, then for creating time slot select start time then select duration you spend to check patient then select interval between slots then number of slots doctor want to create and your end time automatically generate by calculating your precious settings. Then doctor need to select his/her specialty and service for selected hospital and select space or number of patient he/her want to check in each slot. Then doctor need to select days he/she available in selected hospital and then doctor need to add his/her consultation fees.</p>
+			<p id="doc_appointment_settings_slots">New slots: Doctor can add new slots or days and delete slots or days. If you doctor to add new slots or days then click view detail button in available location and new page open with previous detail. For adding new slots open day in which you want to add new slot click add more button and new slot form added add slot detail and save. If you want to delete specific slot then click cross icon over time slot and if you want to delete all slots for a specific day then click delete all and slots deleted. If doctor want to add new day then  he/she open day and add new slot and day added in his/her available day list. You can also update your services from this page.</p>
+			<figure class="la-img"><img src="assets/images/doc-appt-list-2.png"></figure>
+			<p id="doc_article"><strong>Manage Article</strong> - <a href="" data-scrollto="#toc">top</a></p>
+			<p>You can view created article listing as well as you can create new article</p>
+			<p><strong>Create Article:</strong> You can featured your article from top right switch button and you can add title, description, featured image and select category. You need to create article category from taxonomy section</p>
+			<figure class="la-img"><img src="assets/images/manage_article.png"></figure>
+			<p id="doc_payout"><strong>Payout Settings</strong> - <a href="" data-scrollto="#toc">top</a></p>
+			<p>Doctor need to set his/her payouts in order to withdraw his/her amount. Doctor can select PayPal or Bank Transfer payment method and add their relevant data. you can view more detail from <a data-scrollto="#step4_payout" href="#">here</a></p>
+			<figure class="la-img"><img src="assets/images/doc-payout-settings.png"></figure>
+			<p id="doc_saved"><strong>Saved Items</strong> - <a href="" data-scrollto="#toc">top</a></p>
+			<p>Doctor can view all saved hospitals and doctors form this page.</p>
+			<figure class="la-img"><img src="assets/images/reg-saved-docs.png"></figure>
+			<p id="doc_package"><strong>Packages</strong> - <a href="" data-scrollto="#toc">top</a></p>
+			<p>Doctor can view all available packages list from this package. In order to purchase package click buy know button and then user redirect to the checkout page. In checkout page user need to select payment method from he/she want to pay.</p>
+			<figure class="la-img"><img src="assets/images/doc-packages.png"></figure>
+			<figure class="la-img"><img src="assets/images/doc-pkg-checkout.png"></figure>
+			<p id="doc_invoice"><strong>Invoices</strong> - <a href="" data-scrollto="#toc">top</a></p>
+			<p>User can view all of his/her invoices. In order to view detail click view button and new page open with user invoice detail. User can print his/her invoice form that page.</p>
+			<figure class="la-img"><img src="assets/images/reg-invoices.png"></figure>
+			<figure class="la-img"><img src="assets/images/doc-invoice-2.png"></figure>
+			<p id="doc_account"><strong>Account Settings</strong> - <a href="" data-scrollto="#toc">top</a></p>
+			Account settings consist of 2 parts delete account and reset password. In delete account user you delete his/her account, user need to fill all form data and click delete account, after deleting user can automatically logout from the site and his/her data also deleted. an email is send to admin in case of user delete account. In reset password tab user you can change his/her password.
+			<figure class="la-img"><img src="assets/images/doc-acc-delete.png"></figure>
+			<h3 id="hospital"><strong>Hospital</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>Hospital manage doctors team. doctor send request to hospital and then hospital accept or reject doctor request. below are the settings hospital need to configure.</p>
+			<h4 id="hospital_dashboard"><strong>dashboard</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>Hospital can view his saved items and teams</p>
+			<figure class="la-img"><img src="assets/images/dash-hospital.png"></figure>
+			<h4 id="hospital_profile"><strong>Profile Settings</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>Doctor profile consist of 5 parts personal detail, experience and education, awards and downloads, registration and services. </p>
+			<p id="hospital_personal">Personal Detail: user can change his/her subheading, first name, last name, description, working time, working days and upload profile image and banner, select location, add address, longitude and latitude.</p>
+			<figure class="la-img"><img src="assets/images/hos-profile-settings.png"></figure>
+			<p id="hospital_registration">Registration: user can add his/her medical registration number and upload medical document.</p>
+			<figure class="la-img"><img src="assets/images/hos-reg.png"></figure>
+			<p id="hospital_service">Services: user can add services in his/her relevant specialization.</p>
+			<figure class="la-img"><img src="assets/images/hos-profile-settings-services.png"></figure>
+			<h4 id="hospital_team"><strong>Manage Team</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>Hospital need to accept or reject doctor request. Hospital can accept request by clicking approve user button and reject doctor request by clicking reject user. Hospital can also remove doctor from his team by clicking delete user button</p>
+			<figure class="la-img"><img src="assets/images/doc-acc-delete.png"></figure>
+			<h4 id="hospital_saved"><strong>Saved Items</strong> - <a href="" data-scrollto="#toc">top</a></h4>
+			<p>User can view all saved hospitals and doctors form this page.</p>
+			<figure class="la-img"><img src="assets/images/hos-saved-docs.png"></figure>
+			<h4 id="hospital_account"><strong>Account Settings</strong> - <a href="" data-scrollto="#toc">top</a></h4>
+			Account settings consist of 2 parts delete account and reset password. In delete account user you delete his/her account, user need to fill all form data and click delete account, after deleting user can automatically logout from the site and his/her data also deleted. an email is send to admin in case of user delete account. In reset password tab user you can change his/her password.
+			<figure class="la-img"><img src="assets/images/account-setting-reset-pass.png"></figure>
+			<figure class="la-img"><img src="assets/images/account-setting-delete-acc.png"></figure>
+			<h3 id="regular"><strong>Regular User</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<h4 id="regular_dashboard"><strong>dashboard</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>User can view his new messages, saved items and number of appointments</p>
+			<figure class="la-img"><img src="assets/images/dash-reg.png"></figure>
+			<h4 id="regular_profile"><strong>Profile Settings</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>User can add or change his first name, last name and upload profile image and banner.</p>
+			<figure class="la-img"><img src="assets/images/reg-profile.png"></figure>
+			<h4 id="regular_appointment"><strong>Appointments</strong> - <a href="" data-scrollto="#toc">top</a></h4>	
+			<p>User can view his/her appointments. User need to select date from calender and all the appointments related to the selected date can be displayed. User can view doctor detail by clicking view detail button.</p>
+			<figure class="la-img"><img src="assets/images/reg-app-list-2.png"></figure>
+			<h4 id="regular_saved"><strong>Saved Items</strong> - <a href="" data-scrollto="#toc">top</a></h4>
+			<p>User can view all saved hospitals and doctors form this page.</p>
+			<figure class="la-img"><img src="assets/images/reg-saved-docs.png"></figure>
+			<h4 id="regular_invoice"><strong>Invoices</strong> - <a href="" data-scrollto="#toc">top</a></h4>
+			<p>User can view all of his/her invoices. In order to view detail click view button and new page open with his invoice detail. User can print his/her invoice form that page.</p>
+			<figure class="la-img"><img src="assets/images/reg-invoices.png"></figure>
+			<figure class="la-img"><img src="assets/images/doc-invoice-2.png"></figure>
+			<h4 id="regular_inbox"><strong>Inbox</strong> - <a href="" data-scrollto="#toc">top</a></h4>
+			<p>User can view all the users list he already chat with in left site and by clicking user image and name from left side list user can view chat history and send new messages</p>
+			<figure class="la-img"><img src="assets/images/inbox.png"></figure>
+			<h4 id="hospital_account"><strong>Account Settings</strong> - <a href="" data-scrollto="#toc">top</a></h4>
+			<p>Account settings consist of 2 parts delete account and reset password. In delete account user you delete his/her account, user need to fill all form data and click delete account, after deleting user can automatically logout from the site and his/her data also deleted. an email is send to admin in case of user delete account. In reset password tab user you can change his/her password.</p>
+			<figure class="la-img"><img src="assets/images/doc-acc-delete.png"></figure>
+			<h3 id="step5"><strong>Translate Languages</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>Translation of strings is termed as localization in laravel official documention.</p>
+			<p>You can change language according to your need in Doctry by following the steps given below.</p>
+			<ul><li>Go to project main folder you will find "resources" folder e.g Doctry &gt; resources&nbsp;</li></ul>
+			<figure><img src="assets/images/article-img-1.png" data-image="3341544803"></figure>
+			<ul><li>There you will find a folder named "lang"&nbsp;&nbsp;</li></ul>
+			<figure><img src="assets/images/article-img-2.png" data-image="7850601978"></figure>
+			<ul><li>In which there are language folders like "en", "de" etc.&nbsp;</li></ul>
+			<figure><img src="assets/images/article-img-3.png" data-image="5050997008"></figure>
+			<ul><li><p>Create your language folder with its code name e.g "en", "de" etc.</p></li>
+				<li>Copy all the files from "en" folder&nbsp;and paste it in your folder that you want your application to be translated in.&nbsp;&nbsp;</li>
+			</ul>
+			<figure><img src="assets/images/article-img-4.png" data-image="4282440407"></figure>
+			<ul><li>All files contain the translated strings of the whole application. You have to translate all files manually.</li>
+				<li>Go to project main folder (root) -&gt; app folder -&gt; Helper.php&nbsp;</li>
+			</ul>
+			<figure><img src="assets/images/article-img-13.png" data-image="3506759881"></figure>
+			<ul><li>Open Helper.php find (getTranslatedLang) function add your created language in list e.g&nbsp;<br>'fr' =&gt; array(
+				'code' =&gt; 'fr',
+				'title' =&gt; 'French',
+			),&nbsp;</li><li>Go to Admin Dashboard -&gt; General Settings you will find "Language Settings" option if you do previous step correctly you will find your language in the dropdown as shown in image below.&nbsp;</li></ul>
+			<ul><li>select your language and click save.&nbsp;</li></ul>
+			<ul><li>If language not change then go to Admin Dashboard -&gt; General Settings &gt; Cache clear and clear all the cache from there as shown in below image.&nbsp;</li></ul>
+			<p>For more information regrading translation in laravel you can consult its documention <a href="https://laravel.com/docs/5.7/localization#introduction"  rel="nofollow">Laravel Localization</a></p>
+			<hr>
+			<h5><strong>Translate Language On Local Server</strong></h5>
+			<p>If you are having problem translating languages on local server please follow the steps given below</p>
+			<ul>
+				<li>Now stop your <strong>artisan server</strong></li>
+				<li>Go to project root folder</li>
+				<li>Open bootstrap folder</li>
+				<li>Open cache folder</li> 
+				<li>Delete all files inside the cache folder</li>
+				<li>Now start your <strong>artisan server</strong> again and refresh you site on local server.</li> 
+				<li>Your website will be translated.</li>
+			</ul>
+			<h3 id="step8"><strong>Release</strong> - <a href="" data-scrollto="#toc">top</a></h3>
+			<p>Released on <strong>03 October, 2019</strong></p>
+		</div>
+	</div><!-- end div .container -->
+</body>
+
+</html>
